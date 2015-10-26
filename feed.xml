@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Taulant Haka</title>
+  <subtitle>Developing is fun.</subtitle>
+  <id>http://thaka.github.io</id>
+  <link href="http://thaka.github.io"/>
+  <link href="http://thaka.github.io/feed.xml" rel="self"/>
+  <updated>2015-10-25T20:00:00-04:00</updated>
+  <author>
+    <name>Taulant Haka</name>
+  </author>
+  <entry>
+    <title>Salesforce Permission Set Copy Utility</title>
+    <link rel="alternate" href="http://thaka.github.io/2015/10/26/PermissionSet_Deployment/"/>
+    <id>http://thaka.github.io/2015/10/26/PermissionSet_Deployment/</id>
+    <published>2015-10-25T20:00:00-04:00</published>
+    <updated>2015-10-26T14:48:30-04:00</updated>
+    <author>
+      <name>Taulant Haka</name>
+    </author>
+    <summary type="html">Salesforce Permission Set Copy Utility
+
+This java utility copies the permission set from one Salesforce Org (Source Org) into the other (Target Org). This will require the permission set on the Target Org to be created before running this utility.
+
+TODO</summary>
+  </entry>
+</feed>

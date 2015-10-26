@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taulant Haka: Salesforce Permission Set Copy Utility</title>
+<meta content='Salesforce Permission Set Copy Utility This java utility copies the permission set from one Salesforce Org (Source Org) into the other (Target O...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Taulant Haka' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='Salesforce Permission Set Copy Utility' property='og:title'>
+<meta content='Salesforce Permission Set Copy Utility This java utility copies the permission set from one Salesforce Org (Source Org) into the other (Target O...' property='og:description'>
+<meta content='http://thaka.github.io/2015/10/26/PermissionSet_Deployment/' property='og:url'>
+<meta content='2015-10-26' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='Salesforce Permission Set Copy Utility' name='twitter:title'>
+<meta content='Salesforce Permission Set Copy Utility This java utility copies the permission set from one Salesforce Org (Source Org) into the other (Target O...' name='twitter:description'>
+<meta content='http://thaka.github.io/2015/10/26/PermissionSet_Deployment/' name='twitter:url'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Salesforce Permission Set Copy Utility</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2015-10-26'>
+26 October 2015
+</time>
+on <a href='/tag/getting-started/'>Getting Started</a>
+</section>
+</header>
+<section class='post-content'><h1>Salesforce Permission Set Copy Utility</h1>
+
+<p>This java utility copies the permission set from one Salesforce Org (Source Org) into the other (Target Org). This will require the permission set on the Target Org to be created before running this utility.</p>
+
+<h3>TODO:</h3>
+
+<ol>
+<li>Download the project</li>
+<li>Set the following parameters:
+
+<ul>
+<li>sourcePermissionSetId &ndash; The SFDC Id of the Permission Set to be copied from the Source Org</li>
+<li>targetPermissionSetId &ndash; The SFDC Id of the Permission Set to be updated from the Target Org</li>
+<li>Source Org parameters &ldquo;userName&rdquo;, &ldquo;Password&rdquo;, authEndPoint</li>
+<li>Target Org parameters &ldquo;userName&rdquo;, &ldquo;Password&rdquo;, authEndPoint</li>
+</ul></li>
+</ol>
+
+<h3>NOTES:</h3>
+
+<ol>
+<li>When the object or fields from the Source Org is missing on the Target Org the utility will throw the following the error:
+
+<ul>
+<li>Missing object on destination ORG &ndash;&gt; ERROR Updating Record: Sobject Type Name: bad value for restricted picklist field: <strong>ObjectName</strong></li>
+<li>Missing Field on destination ORG &ndash;&gt; ERROR Updating Record: Field Name: bad value for restricted picklist field: <strong>ObjectName.FieldName</strong></li>
+</ul></li>
+</ol>
+</section>
+<footer class='post-footer'>
+<section class='author'>
+<h4>
+<a href='/author/taulant-haka/'>Taulant Haka</a>
+</h4>
+<p></p>
+Read
+<a href='/author/taulant-haka/'>more posts</a>
+by this author.
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Salesforce Permission Set Copy Utility&amp;amp;url=http://thaka.github.io/2015/10/26/PermissionSet_Deployment/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://thaka.github.io/2015/10/26/PermissionSet_Deployment/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://thaka.github.io/2015/10/26/PermissionSet_Deployment/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+<aside class='read-next'>
+</aside>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Taulant Haka</a>
+&copy;
+2015
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>
